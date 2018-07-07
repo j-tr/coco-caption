@@ -14,9 +14,9 @@ dataDir='/data/dl_lecture_data'
 dataType='val2014'
 algName = 'fakecap'
 annFile='%s/Evaluation-I/captions_eval-I.json'%(dataDir)
-subtypes=['results', 'evalImgs', 'eval']
-[resFile, evalImgsFile, evalFile]= \
-['%s/Evaluation-I/captions_eval-I_%s_%s.json'%(dataDir,algName,subtype) for subtype in subtypes]
+resFile='%s/Evaluation-I/captions_eval-I_%s_resultss.json'%(dataDir,algName)
+evalImgsFile='./%s_evalImgs.json'%(algName)
+evalFile='./%s_eval.json'%(algName)
 
 # download Stanford models
 #./get_stanford_models.sh
