@@ -14,7 +14,7 @@ dataDir='/data/dl_lecture_data'
 dataType='val2014'
 algName = 'fakecap'
 annFile='%s/Evaluation-I/captions_eval-I.json'%(dataDir)
-resFile='%s/Evaluation-I/captions_eval-I_%s_resultss.json'%(dataDir,algName)
+resFile='%s/Evaluation-I/captions_eval-I_%s_results.json'%(dataDir,algName)
 evalImgsFile='./%s_evalImgs.json'%(algName)
 evalFile='./%s_eval.json'%(algName)
 
