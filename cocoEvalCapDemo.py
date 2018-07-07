@@ -16,7 +16,7 @@ algName = 'fakecap'
 annFile='%s/Evaluation-I/captions_eval-I.json'%(dataDir)
 subtypes=['results', 'evalImgs', 'eval']
 [resFile, evalImgsFile, evalFile]= \
-['%s/Evaluation-I/captions_eval-I_%s_%s.json​'%(dataDir,algName,subtype) for subtype in subtypes]
+['%s/Evaluation-I/captions_eval-I_%s_%s.json'%(dataDir,algName,subtype) for subtype in subtypes]
 
 # download Stanford models
 #./get_stanford_models.sh
