@@ -19,7 +19,7 @@ subtypes=['results', 'evalImgs', 'eval']
 ['%s/results/captions_%s_%s_%s.json'%(dataDir,dataType,algName,subtype) for subtype in subtypes]
 
 # download Stanford models
-!./get_stanford_models.sh
+#./get_stanford_models.sh
 
 # create coco object and cocoRes object
 coco = COCO(annFile)
